@@ -3,7 +3,7 @@ let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: 'Matão, São Paulo',
+    location: 'Jakarta, Indonesia',
     scale: "C",
   },
   clock: {
@@ -25,14 +25,14 @@ const default_config = {
   },
   disabled: [],
   localIcons: false,
-  fastlink: "https://chat.openai.com/",
+  fastlink: "https://chatgpt.com/",
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "chi ll",
-      background_url: "src/img/banners/cbg-2.gif",
+      name: "sta rt",
+      background_url: "src/img/banners/a.jpeg",
       categories: [{
-        name: "Social Media",
+        name: "Quick Start",
         links: [
           {
             name: "whatsapp",
@@ -41,14 +41,14 @@ const default_config = {
             icon_color: "#a9b665",
           },
           {
-            name: "twitter",
-            url: "https://twitter.com/home",
-            icon: "brand-twitter-filled",
-            icon_color: "#7daea3",
+            name: "instagram",
+            url: "https://www.instagram.com/",
+            icon: "brand-instagram",
+            icon_color: "#bd25d4",
           },
           {
-            name: "reddit",
-            url: "https://www.reddit.com/",
+            name: " BA wiki",
+            url: "https://bluearchive.wiki/wiki/Main_Page",
             icon: "brand-reddit",
             icon_color: "#e78a4e",
           },
@@ -81,8 +81,8 @@ const default_config = {
             icon_color: "#e78a4e",
           },
           {
-            name: "tetris",
-            url: "https://tetris.com/",
+            name: "wargaming",
+            url: "https://wargaming.net/en",
             icon: "brand-apple-arcade",
             icon_color: "#ea6962",
           },
@@ -97,24 +97,24 @@ const default_config = {
             icon_color: "#7daea3",
           },
           {
-            name: "primevideo",
-            url: "https://www.primevideo.com/region/eu/?ref_=dv_web_unknown",
-            icon: "brand-amazon",
-            icon_color: "#7daea3",
+            name: "tiktok",
+            url: "https://www.tiktok.com/en/",
+            icon: "brand-tiktok",
+            icon_color: "#95370f",
           },
         ],
       }],
     },
     {
       name: "design",
-      background_url: "src/img/banners/cbg-6.gif",
+      background_url: "src/img/banners/b.jpeg",
       categories: [
         {
           name: "inspiration",
           links: [
             {
               name: "pinterest",
-              url: "https://www.pinterest.es/",
+              url: "https://id.pinterest.com/",
               icon: "brand-pinterest",
               icon_color: "#ea6962",
             },
@@ -188,7 +188,7 @@ const default_config = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/cbg-7.gif",
+      background_url: "src/img/banners/c.jpeg",
       categories: [
         {
           name: "repositories",
@@ -268,8 +268,8 @@ const default_config = {
       ],
     },
     {
-      name: "myself",
-      background_url: "src/img/banners/cbg-9.gif",
+      name: "more",
+      background_url: "src/img/banners/d.jpeg",
       categories: [
         {
           name: "mails",
