@@ -30,7 +30,7 @@ const default_config = {
   tabs: [
     {
       name: "sta rt",
-      background_url: "src/img/banners/a.jpeg",
+      background_url: "src/img/banners/c.jpeg",
       categories: [{
         name: "Quick Start",
         links: [
@@ -52,18 +52,6 @@ const default_config = {
             icon: "brand-reddit",
             icon_color: "#e78a4e",
           },
-          {
-            name: "youtube",
-            url: "https://www.youtube.com/",
-            icon: "brand-youtube-filled",
-            icon_color: "#ea6962",
-          },
-          {
-            name: "twitch",
-            url: "https://www.twitch.tv/",
-            icon: "brand-twitch",
-            icon_color: "#d3869b",
-          },
         ],
       }, {
         name: "Games",
@@ -81,26 +69,32 @@ const default_config = {
             icon_color: "#e78a4e",
           },
           {
-            name: "wargaming",
-            url: "https://wargaming.net/en",
-            icon: "brand-apple-arcade",
-            icon_color: "#ea6962",
+            name: "steam",
+            url: "https://store.steampowered.com/",
+            icon: "brand-steam",
+            icon_color: "#3883d3",
           },
         ],
       }, {
-        name: "Video",
+        name: "Watch",
         links: [
           {
-            name: "disney+",
-            url: "https://www.disneyplus.com/home",
-            icon: "brand-disney",
-            icon_color: "#7daea3",
+            name: "twitch",
+            url: "https://www.twitch.tv/",
+            icon: "brand-twitch",
+            icon_color: "#d3869b",
           },
           {
             name: "tiktok",
             url: "https://www.tiktok.com/en/",
             icon: "brand-tiktok",
             icon_color: "#95370f",
+          },
+          {
+            name: "youtube",
+            url: "https://www.youtube.com/",
+            icon: "brand-youtube-filled",
+            icon_color: "#ea6962",
           },
         ],
       }],
@@ -188,7 +182,7 @@ const default_config = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/c.jpeg",
+      background_url: "src/img/banners/a.jpeg",
       categories: [
         {
           name: "repositories",
