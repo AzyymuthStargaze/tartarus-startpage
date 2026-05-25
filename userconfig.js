@@ -29,10 +29,10 @@ const default_config = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "sta rt",
-      background_url: "src/img/banners/c.jpeg",
+      name: "sea rch",
+      background_url: "src/img/banners/hoshino.gif",
       categories: [{
-        name: "Quick Start",
+        name: "Relatively visited",
         links: [
           {
             name: "whatsapp",
@@ -49,8 +49,14 @@ const default_config = {
           {
             name: " BA wiki",
             url: "https://bluearchive.wiki/wiki/Main_Page",
-            icon: "brand-reddit",
-            icon_color: "#e78a4e",
+            icon: "brand-wikipedia",
+            icon_color: "#3689dc",
+          },
+           {
+            name: " Koumakan wiki",
+            url: "https://azurlane.koumakan.jp/wiki/Azur_Lane_Wiki",
+            icon: "brand-wikipedia",
+            icon_color: "#ec2424",
           },
         ],
       }, {
@@ -76,7 +82,7 @@ const default_config = {
           },
         ],
       }, {
-        name: "Watch",
+        name: "Watch & Stream",
         links: [
           {
             name: "twitch",
@@ -96,12 +102,18 @@ const default_config = {
             icon: "brand-youtube-filled",
             icon_color: "#ea6962",
           },
+          {
+            name: "samehadaku",
+            url: "https://v2.samehadaku.how/",
+            icon: "brand-youtube",
+            icon_color: "#4053d1",
+          },
         ],
       }],
     },
     {
       name: "design",
-      background_url: "src/img/banners/b.jpeg",
+      background_url: "src/img/banners/hina-cheeks.gif",
       categories: [
         {
           name: "inspiration",
@@ -182,7 +194,7 @@ const default_config = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/a.jpeg",
+      background_url: "src/img/banners/natsu.gif",
       categories: [
         {
           name: "repositories",
@@ -263,7 +275,7 @@ const default_config = {
     },
     {
       name: "more",
-      background_url: "src/img/banners/d.jpeg",
+      background_url: "src/img/banners/shiroko-dance.gif",
       categories: [
         {
           name: "mails",
