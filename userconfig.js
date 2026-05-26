@@ -194,7 +194,7 @@ const default_config = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/natsu.gif",
+      background_url: "src/img/banners/shupogaki.gif",
       categories: [
         {
           name: "repositories",
@@ -278,13 +278,19 @@ const default_config = {
       background_url: "src/img/banners/shiroko-dance.gif",
       categories: [
         {
-          name: "mails",
+          name: "utilities",
           links: [
             {
               name: "gmail",
               url: "https://mail.google.com/mail/u/0/",
               icon: "brand-gmail",
               icon_color: "#ea6962",
+            },
+            {
+              name: "tlauncher",
+              url: "https://tlauncher.org/en/catalog/skins/",
+              icon: "brand-minecraft",
+              icon_color: "#3ee91c",
             },
           ],
         },
