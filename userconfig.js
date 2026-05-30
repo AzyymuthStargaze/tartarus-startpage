@@ -53,10 +53,10 @@ const default_config = {
             icon_color: "#3689dc",
           },
            {
-            name: " Koumakan wiki",
-            url: "https://azurlane.koumakan.jp/wiki/Azur_Lane_Wiki",
-            icon: "brand-wikipedia",
-            icon_color: "#ec2424",
+            name: "facebook",
+            url: "https://www.facebook.com/",
+            icon: "brand-facebook",
+            icon_color: "#05ff9f",
           },
         ],
       }, {
@@ -288,7 +288,7 @@ const default_config = {
             },
             {
               name: "tlauncher",
-              url: "https://tlauncher.org/en/catalog/skins/",
+              url: "https://tlauncher.org/en/profile/",
               icon: "brand-minecraft",
               icon_color: "#3ee91c",
             },
