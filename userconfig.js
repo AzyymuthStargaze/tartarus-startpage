@@ -53,10 +53,10 @@ const default_config = {
             icon_color: "#3689dc",
           },
            {
-            name: "facebook",
-            url: "https://www.facebook.com/",
-            icon: "brand-facebook",
-            icon_color: "#05ff9f",
+            name: "buildit",
+            url: "https://builditapp.com/",
+            icon: "minecraft",
+            icon_color: "#3db2f0",
           },
         ],
       }, {
