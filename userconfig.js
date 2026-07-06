@@ -30,7 +30,7 @@ const default_config = {
   tabs: [
     {
       name: "sea rch",
-      background_url: "src/img/banners/hoshino.gif",
+      background_url: "src/img/banners/cbg-6.gif",
       categories: [{
         name: "Relatively visited",
         links: [
@@ -55,7 +55,7 @@ const default_config = {
            {
             name: "buildit",
             url: "https://builditapp.com/",
-            icon: "minecraft",
+            icon: "brand-minecraft",
             icon_color: "#3db2f0",
           },
         ],
@@ -113,7 +113,7 @@ const default_config = {
     },
     {
       name: "design",
-      background_url: "src/img/banners/hina-cheeks.gif",
+      background_url: "src/img/banners/cbg-12.gif",
       categories: [
         {
           name: "inspiration",
@@ -194,7 +194,7 @@ const default_config = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/shupogaki.gif",
+      background_url: "src/img/banners/cbg-11.gif",
       categories: [
         {
           name: "repositories",
@@ -275,7 +275,7 @@ const default_config = {
     },
     {
       name: "more",
-      background_url: "src/img/banners/shiroko-dance.gif",
+      background_url: "src/img/banners/bg-3.gif",
       categories: [
         {
           name: "utilities",
