@@ -30,7 +30,7 @@ const default_config = {
   tabs: [
     {
       name: "sea rch",
-      background_url: "src/img/banners/cbg-6.gif",
+      background_url: "src/img/banners/shiroko-dance.gif",
       categories: [{
         name: "Relatively visited",
         links: [
@@ -103,8 +103,8 @@ const default_config = {
             icon_color: "#ea6962",
           },
           {
-            name: "samehadaku",
-            url: "https://v2.samehadaku.how/",
+            name: "animepahe",
+            url: "https://animepahe.pw/",
             icon: "brand-youtube",
             icon_color: "#4053d1",
           },
@@ -113,7 +113,7 @@ const default_config = {
     },
     {
       name: "design",
-      background_url: "src/img/banners/cbg-12.gif",
+      background_url: "src/img/banners/hoshino.gif",
       categories: [
         {
           name: "inspiration",
@@ -194,7 +194,7 @@ const default_config = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/cbg-11.gif",
+      background_url: "src/img/banners/hina-cheeks.gif",
       categories: [
         {
           name: "repositories",
@@ -275,7 +275,7 @@ const default_config = {
     },
     {
       name: "more",
-      background_url: "src/img/banners/bg-3.gif",
+      background_url: "src/img/banners/shupogaki.gif",
       categories: [
         {
           name: "utilities",
