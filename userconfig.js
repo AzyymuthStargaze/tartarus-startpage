@@ -17,6 +17,7 @@ const default_config = {
       y: ["https://youtube.com/results?search_query=", "Youtube"],
       r: ["https://www.reddit.com/search/?q=", "Reddit"],
       p: ["https://www.pinterest.es/search/pins/?q=", "Pinterest"],
+      b: ["https://search.brave.com/search?q=", "Brave"],
     },
   },
   keybindings: {
@@ -47,16 +48,16 @@ const default_config = {
             icon_color: "#bd25d4",
           },
           {
-            name: " BA wiki",
-            url: "https://bluearchive.wiki/wiki/Main_Page",
-            icon: "brand-wikipedia",
-            icon_color: "#3689dc",
+            name: "telegram",
+            url: "https://web.telegram.org/",
+            icon: "brand-telegram",
+            icon_color: "#0088cc",
           },
-           {
-            name: "buildit",
-            url: "https://builditapp.com/",
-            icon: "brand-minecraft",
-            icon_color: "#3db2f0",
+          {
+            name: "spotify",
+            url: "https://open.spotify.com/?flow_ctx=a13f537d-8f64-4ef0-ab67-153fa85846f6%3A1785443654",
+            icon: "brand-spotify",
+            icon_color: "#17e74b",
           },
         ],
       }, {
@@ -69,8 +70,8 @@ const default_config = {
             icon_color: "#a9b665",
           },
           {
-            name: "monkeytype",
-            url: "https://monkeytype.com/",
+            name: "typingclub",
+            url: "https://www.typingclub.com/",
             icon: "keyboard",
             icon_color: "#e78a4e",
           },
@@ -79,6 +80,18 @@ const default_config = {
             url: "https://store.steampowered.com/",
             icon: "brand-steam",
             icon_color: "#3883d3",
+          },
+          {
+            name: " BA wiki",
+            url: "https://bluearchive.wiki/wiki/Main_Page",
+            icon: "brand-wikipedia",
+            icon_color: "#3689dc",
+          },
+           {
+            name: "buildit",
+            url: "https://builditapp.com/",
+            icon: "brand-minecraft",
+            icon_color: "#3db2f0",
           },
         ],
       }, {
@@ -142,6 +155,12 @@ const default_config = {
               icon: "brand-dribbble-filled",
               icon_color: "#d3869b",
             },
+            {
+              name: "canva",
+              url: "https://www.canva.com/templates",
+              icon: "components",
+              icon_color: "#dd6585",
+            },
           ],
         },
         {
@@ -180,13 +199,19 @@ const default_config = {
           ],
         },
         {
-          name: "resources 3d",
+          name: "3d & screen",
           links: [
             {
               name: "thingiverse",
               url: "https://www.thingiverse.com/",
               icon: "circle-letter-t",
               icon_color: "#7daea3",
+            },
+            {
+              name: "jam",
+              url: "https://jam.dev/s/d16d2d9c-efaa-4d2e-b509-69a52663ffba",
+              icon: "components",
+              icon_color: "#cc2626",
             },
           ],
         },
