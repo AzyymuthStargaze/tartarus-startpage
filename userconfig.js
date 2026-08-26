@@ -13,7 +13,6 @@ const default_config = {
   search: {
     engines: {
       g: ["https://google.com/search?q=", "Google"],
-      d: ["https://duckduckgo.com/html?q=", "DuckDuckGo"],
       y: ["https://youtube.com/results?search_query=", "Youtube"],
       r: ["https://www.reddit.com/search/?q=", "Reddit"],
       p: ["https://www.pinterest.es/search/pins/?q=", "Pinterest"],
@@ -64,14 +63,14 @@ const default_config = {
         name: "Games",
         links: [
           {
-            name: "chess",
-            url: "https://www.chess.com/home",
-            icon: "chess-queen-filled",
-            icon_color: "#a9b665",
+            name: "roblox",
+            url: "https://roblox.com/home",
+            icon: "square-filled",
+            icon_color: "#1cd9f1",
           },
           {
-            name: "typingclub",
-            url: "https://www.typingclub.com/",
+            name: "monkeytype",
+            url: "https://www.monkeytype.com/",
             icon: "keyboard",
             icon_color: "#e78a4e",
           },
@@ -121,6 +120,12 @@ const default_config = {
             icon: "brand-youtube",
             icon_color: "#4053d1",
           },
+          {
+            name: "samehadaku",
+            url: "https://v2.samehadaku.how/",
+            icon: "brand-youtube",
+            icon_color: "#d43cee",
+          },
         ],
       }],
     },
@@ -159,7 +164,7 @@ const default_config = {
               name: "canva",
               url: "https://www.canva.com/templates",
               icon: "components",
-              icon_color: "#dd6585",
+              icon_color: "#c565dd",
             },
           ],
         },
@@ -341,7 +346,7 @@ const default_config = {
               icon_color: "#7daea3",
             },
             {
-              name: "fotos",
+              name: "google photos",
               url: "https://photos.google.com/u/1",
               icon: "photo-filled",
               icon_color: "#ea6962",
@@ -356,6 +361,12 @@ const default_config = {
               url: "https://www.linkedin.com/feed/",
               icon: "brand-linkedin",
               icon_color: "#7daea3",
+            },
+            {
+              name: "pling",
+              url: "https://www.pling.me/",
+              icon: "box",
+              icon_color: "#3532d4",
             },
           ],
         },
