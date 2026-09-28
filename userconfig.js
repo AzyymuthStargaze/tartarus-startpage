@@ -25,7 +25,7 @@ const default_config = {
   },
   disabled: [],
   localIcons: false,
-  fastlink: "https://chatgpt.com/",
+  fastlink: "https://chatgpt.com",
   openLastVisitedTab: true,
   tabs: [
     {
@@ -204,7 +204,7 @@ const default_config = {
           ],
         },
         {
-          name: "3d & screen",
+          name: "3d & UI/UX",
           links: [
             {
               name: "thingiverse",
@@ -217,6 +217,12 @@ const default_config = {
               url: "https://jam.dev/s/d16d2d9c-efaa-4d2e-b509-69a52663ffba",
               icon: "components",
               icon_color: "#cc2626",
+            },
+             {
+              name: "uxcel",
+              url: "https://app.uxcel.com/home",
+              icon: "components",
+              icon_color: "#221f1f",
             },
           ],
         },
@@ -247,12 +253,6 @@ const default_config = {
           name: "resources",
           links: [
             {
-              name: "phind",
-              url: "https://www.phind.com/",
-              icon: "brand-openai",
-              icon_color: "#89b482",
-            },
-            {
               name: "flutter",
               url: "https://docs.flutter.dev/ui",
               icon: "brand-flutter",
@@ -269,6 +269,12 @@ const default_config = {
               url: "https://vscode.dev/",
               icon: "brand-vscode",
               icon_color: "#7daea3",
+            },
+            {
+              name: "myinstants",
+              url: "https://www.myinstants.com/",
+              icon: "music",
+              icon_color: "#ea6962",
             },
           ],
         },
@@ -347,7 +353,7 @@ const default_config = {
             },
             {
               name: "google photos",
-              url: "https://photos.google.com/u/1",
+              url: "https://photos.google.com/u/0/?pageId=none",
               icon: "photo-filled",
               icon_color: "#ea6962",
             },
