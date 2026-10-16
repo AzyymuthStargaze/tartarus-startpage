@@ -65,7 +65,7 @@ const default_config = {
           {
             name: "roblox",
             url: "https://roblox.com/home",
-            icon: "square-filled",
+            icon: "square",
             icon_color: "#1cd9f1",
           },
           {
@@ -162,7 +162,7 @@ const default_config = {
             },
             {
               name: "canva",
-              url: "https://www.canva.com/templates",
+              url: "https://www.canva.com",
               icon: "components",
               icon_color: "#c565dd",
             },
@@ -178,14 +178,8 @@ const default_config = {
               icon_color: "#d3869b",
             },
             {
-              name: "uxpro",
-              url: "https://uxpro.cc/",
-              icon: "components",
-              icon_color: "#a9b665",
-            },
-            {
-              name: "colorhunt",
-              url: "https://colorhunt.co/",
+              name: "colorcodes",
+              url: "https://htmlcolorcodes.com/color-picker/",
               icon: "color-picker",
               icon_color: "#ea6962",
             },
@@ -218,11 +212,23 @@ const default_config = {
               icon: "components",
               icon_color: "#cc2626",
             },
-             {
+            {
               name: "uxcel",
               url: "https://app.uxcel.com/home",
               icon: "components",
               icon_color: "#221f1f",
+            },
+            {
+              name: "capcut",
+              url: "https://app.uxcel.com/home",
+              icon: "camera",
+              icon_color: "#bb0000",
+            },
+            {
+              name: "uxpro",
+              url: "https://uxpro.cc/",
+              icon: "components",
+              icon_color: "#a9b665",
             },
           ],
         },
@@ -373,6 +379,12 @@ const default_config = {
               url: "https://www.pling.me/",
               icon: "box",
               icon_color: "#3532d4",
+            },
+            {
+              name: "youtubetoolkit",
+              url: "https://app.youtubetoolkit.com/youtube-video-downloader-1080p",
+              icon: "brand-youtube",
+              icon_color: "#c2065a",
             },
           ],
         },
